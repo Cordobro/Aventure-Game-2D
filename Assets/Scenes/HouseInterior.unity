@@ -3536,6 +3536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 52033121361065783, guid: 8a916145579425d4ab26a7a2d3724bc7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a916145579425d4ab26a7a2d3724bc7, type: 3}
 --- !u!1 &2143812737
@@ -5153,15 +5157,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5959238041993446739, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5959238041993446739, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.71
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5959238041993446739, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.2057595
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5959238041993446739, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5195,7 +5199,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScenTransition
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8102628564588247872, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
+      propertyPath: scenToLoad
+      value: SampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102628564588247872, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
+      propertyPath: playerPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102628564588247872, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
+      propertyPath: playerPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8102628564588247872, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2ffbd895b5931f448914309f79ccb3af, type: 3}
 --- !u!1 &6989368380143376072 stripped
 GameObject:

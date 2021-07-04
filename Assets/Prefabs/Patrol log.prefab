@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8882272759048688141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.594488, y: -4.22605, z: 314.2339}
+  m_LocalPosition: {x: -9.594488, y: -4.22605, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -172,6 +172,7 @@ MonoBehaviour:
   enemyName: Larry the log
   baseAttack: 1
   moveSpeed: 1.5
+  myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 0.5

@@ -57,14 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScriptableObjects\VectorValue.cs" />
-    <Compile Include="Assets\Scripts\Objects\Log.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\Log.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Objects\pot.cs" />
     <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
     <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
     <Compile Include="Assets\Scripts\Objects\ScenTransition.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Item.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHit.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\PatrolLog.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Signal.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\HeartManager.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
@@ -73,9 +75,9 @@
     <Compile Include="Assets\Scripts\Player Scripts\ContextClue.cs" />
     <Compile Include="Assets\Scripts\Objects\Signs.cs" />
     <Compile Include="Assets\Scripts\SignalListener.cs" />
-    <Compile Include="Assets\Scripts\Knockback.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObjects\Item.cs" />
+    <Compile Include="Assets\Scripts\Knockback.cs" />
+    <Compile Include="Assets\Scripts\Objects\Door.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

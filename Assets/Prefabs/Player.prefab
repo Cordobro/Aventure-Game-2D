@@ -97,6 +97,8 @@ GameObject:
   - component: {fileID: 52033121361065768}
   - component: {fileID: 52033121361065769}
   - component: {fileID: 52033121361065774}
+  - component: {fileID: 8748021311928353321}
+  - component: {fileID: 9059605228964373694}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -160,7 +162,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -130131703
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7152930139536384079, guid: 65d62fa6b2d948740a8bb03b9fa48212, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -236,6 +238,9 @@ MonoBehaviour:
   speed: 4
   currentHealth: {fileID: 11400000, guid: 1ab44f0ce61ddae45bc021337be405ca, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 7bbe610802fbf8d4f834a5f3752b13d9, type: 2}
+  startingPosition: {fileID: 0}
+  playerInventory: {fileID: 0}
+  reveivedItemSprite: {fileID: 0}
 --- !u!95 &52033121361065769
 Animator:
   serializedVersion: 3
@@ -281,6 +286,48 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5363019, y: 0.9798641}
   m_EdgeRadius: 0
+--- !u!114 &8748021311928353321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52033121361065783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d1b18a1c76c534492906497fc99704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signal: {fileID: 11400000, guid: 8e85100f8b5851c4fb83582404375bd4, type: 2}
+  signalEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ContextClue, Assembly-CSharp
+        m_MethodName: ChangeContext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &9059605228964373694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52033121361065783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a45397014273d043929a941e84c4344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contextClue: {fileID: 0}
+  contextActive: 0
 --- !u!1 &52033121715788415
 GameObject:
   m_ObjectHideFlags: 0
