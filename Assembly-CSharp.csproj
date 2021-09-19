@@ -78,6 +78,8 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory.cs" />
     <Compile Include="Assets\Scripts\Knockback.cs" />
     <Compile Include="Assets\Scripts\Objects\Door.cs" />
+    <Compile Include="Assets\Scripts\Objects\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Objects\Heart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
